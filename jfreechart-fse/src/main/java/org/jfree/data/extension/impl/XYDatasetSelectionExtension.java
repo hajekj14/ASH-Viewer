@@ -82,8 +82,7 @@ public class XYDatasetSelectionExtension extends
     public XYDatasetSelectionExtension(XYDataset dataset) {
         super(dataset);
         this.dataset = dataset;
-        //this.selectionData = new ArrayList[dataset.getSeriesCount()];
-        this.selectionData = new ArrayList[50];
+        this.selectionData = new ArrayList[dataset.getSeriesCount()];
         initSelection();
     }
 
